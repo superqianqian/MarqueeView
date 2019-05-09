@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.myapplication.MarqueeView
+        android:id="@+id/marquee1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp" />
+
+    <com.example.myapplication.MarqueeView
+        android:id="@+id/marquee2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="5dp" />
+
+    <com.example.myapplication.MarqueeView
+        android:id="@+id/marquee3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="5dp" />
+
+    <com.example.myapplication.MarqueeView
+        android:id="@+id/marquee4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="5dp" />
+
+</LinearLayout>

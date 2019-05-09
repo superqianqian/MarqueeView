@@ -7,6 +7,7 @@ Android 富文本跑马灯，可以自定义添加View
 
 
 使用方法：
+       
         TextView tv = new TextView(this);
         tv.setText("我是个文字");
         tv.setTextColor(Color.parseColor("#424242"));
